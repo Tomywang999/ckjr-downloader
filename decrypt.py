@@ -11,7 +11,7 @@ key_headers = {
     'Host': 'kpapiop.ckjr001.com',
     'accept': 'application/json, text/plain, */*',
     'x-from': 'oa',
-    'authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8va3BhcGlvcC5ja2pyMDAxLmNvbS9hcGkvbXAvYXV0aENhbGxiYWNrIiwiaWF0IjoxNzE5MzA1MzU3LCJleHAiOjE3MjE4OTczNTcsIm5iZiI6MTcxOTMwNTM1NywianRpIjoibHR2UU8xQjlkSVlkcEFXYiIsInN1YiI6bnVsbCwiYyI6Im5rejkiLCJ1IjoicDM4NDJ4cCIsImEiOjEsImxpdmVBdXRoSWQiOjAsImlzbWIiOjAsInAiOm51bGwsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEiLCJzeXMiOiJtaWNybyIsImF1aSI6MTAwMjUsInJmdCI6MTYzNTIxMTU0NSwidWlkIjoiMTQ0MjI5OTI0NDc3Mjg0MzUyMiIsImFwcElkIjoiMTQ0MjI5OTI0MzI4Njg5MjU0NSIsImxvZ2luVXNlclR5cGUiOjIsImN2IjoyMDAsInV0eSI6MiwiYWlkIjoiMTQ4MjIzNzE4ODAxOTEyNjI3NCIsImNpZCI6IjE0ODIyMzcxODYxNjU1MTQyNDEiLCJhZyI6OTMyNzA4LCJvcElkIjoibHpuN3BuOW8iLCJqdXQiOjAsIm9wQWRtaW5Vc2VySWQiOjAsImp1biI6Ilx1NjYwZVx1NGVhZVx1ODAwMVx1NWUwOCJ9.-lcXnICsyBIPFkLSSPN7xtIYEDgxGoecwFsVseK4nrA',
+    'authorization': 'Bearer <YOUR_AUTHORIZATION_TOKEN>',
     'x-dmp': 'u=p3842xp&c=nkz9&url=%2F%3FfromQr%3D1%26refereeId%3D9zvg2r9&chl=gxh',
     'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 NetType/WIFI MicroMessenger/6.8.0(0x16080000) MacWechat/3.8.8(0x13080812) XWEB/1216 Flue',
     'origin': 'https://wx8a386e8fb04db387.wx.ckjr001.com',
@@ -21,14 +21,14 @@ key_headers = {
     'referer': 'https://wx8a386e8fb04db387.wx.ckjr001.com/',
     'accept-language': 'en-US,en;q=0.9',
     'if-none-match': 'W/"49dbc684be54d8e466d803345765e0a0de191edc"',
-    'Cookie': 'HWWAFSESID=b7df64097488a32ff44; HWWAFSESTIME=1719305888552'
+    'Cookie': 'HWWAFSESID=<YOUR_SESSION_ID>; HWWAFSESTIME=<YOUR_SESSION_TIME>'
 }
 courselist_url = "https://kpapiop.ckjr001.com/api/courses?name=&type=3&page=1&limit=1000&isVip=&catId=&sort=&p=&sortType=1&fromApp=oa"
 courselist_headers = {
     'Host': 'kpapiop.ckjr001.com',
     'accept': 'application/json, text/plain, */*',
     'x-from': 'oa',
-    'authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8va3BhcGlvcC5ja2pyMDAxLmNvbS9hcGkvbXAvYXV0aENhbGxiYWNrIiwiaWF0IjoxNzE5MzA1MzU3LCJleHAiOjE3MjE4OTczNTcsIm5iZiI6MTcxOTMwNTM1NywianRpIjoibHR2UU8xQjlkSVlkcEFXYiIsInN1YiI6bnVsbCwiYyI6Im5rejkiLCJ1IjoicDM4NDJ4cCIsImEiOjEsImxpdmVBdXRoSWQiOjAsImlzbWIiOjAsInAiOm51bGwsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEiLCJzeXMiOiJtaWNybyIsImF1aSI6MTAwMjUsInJmdCI6MTYzNTIxMTU0NSwidWlkIjoiMTQ0MjI5OTI0NDc3Mjg0MzUyMiIsImFwcElkIjoiMTQ0MjI5OTI0MzI4Njg5MjU0NSIsImxvZ2luVXNlclR5cGUiOjIsImN2IjoyMDAsInV0eSI6MiwiYWlkIjoiMTQ4MjIzNzE4ODAxOTEyNjI3NCIsImNpZCI6IjE0ODIyMzcxODYxNjU1MTQyNDEiLCJhZyI6OTMyNzA4LCJvcElkIjoibHpuN3BuOW8iLCJqdXQiOjAsIm9wQWRtaW5Vc2VySWQiOjAsImp1biI6Ilx1NjYwZVx1NGVhZVx1ODAwMVx1NWUwOCJ9.-lcXnICsyBIPFkLSSPN7xtIYEDgxGoecwFsVseK4nrA',
+    'authorization': 'Bearer <YOUR_AUTHORIZATION_TOKEN>',
     'x-dmp': 'u=p3842xp&c=nkz9&url=%2FhomePage%2Fcourse%2FcourseList%3Ftype%3D0%26sortType%3D1&chl=gxh',
     'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 NetType/WIFI MicroMessenger/6.8.0(0x16080000) MacWechat/3.8.8(0x13080812) XWEB/1216 Flue',
     'origin': 'https://wx8a386e8fb04db387.wx.ckjr001.com',
@@ -38,7 +38,7 @@ courselist_headers = {
     'referer': 'https://wx8a386e8fb04db387.wx.ckjr001.com/',
     'accept-language': 'en-US,en;q=0.9',
     'if-none-match': 'W/"a1e3d4baad1a3c93a905a3d8006c3d6d1b5688fa"',
-    'Cookie': 'HWWAFSESID=b7df64097488a32ff44; HWWAFSESTIME=1719305888552'
+    'Cookie': 'HWWAFSESID=<YOUR_SESSION_ID>; HWWAFSESTIME=<YOUR_SESSION_TIME>'
 }
 getcourse_url1 = "https://kpapiop.ckjr001.com/api/courses/"
 getcourse_url2 = "/dirs?page=1&limit=1000&courseType=0&hasPermission=false&fromApp=oa"
@@ -46,7 +46,7 @@ getcourse_headers = {
     'Host': 'kpapiop.ckjr001.com',
     'accept': 'application/json, text/plain, */*',
     'x-from': 'oa',
-    'authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8va3BhcGlvcC5ja2pyMDAxLmNvbS9hcGkvbXAvYXV0aENhbGxiYWNrIiwiaWF0IjoxNzE5MzA1MzU3LCJleHAiOjE3MjE4OTczNTcsIm5iZiI6MTcxOTMwNTM1NywianRpIjoibHR2UU8xQjlkSVlkcEFXYiIsInN1YiI6bnVsbCwiYyI6Im5rejkiLCJ1IjoicDM4NDJ4cCIsImEiOjEsImxpdmVBdXRoSWQiOjAsImlzbWIiOjAsInAiOm51bGwsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEiLCJzeXMiOiJtaWNybyIsImF1aSI6MTAwMjUsInJmdCI6MTYzNTIxMTU0NSwidWlkIjoiMTQ0MjI5OTI0NDc3Mjg0MzUyMiIsImFwcElkIjoiMTQ0MjI5OTI0MzI4Njg5MjU0NSIsImxvZ2luVXNlclR5cGUiOjIsImN2IjoyMDAsInV0eSI6MiwiYWlkIjoiMTQ4MjIzNzE4ODAxOTEyNjI3NCIsImNpZCI6IjE0ODIyMzcxODYxNjU1MTQyNDEiLCJhZyI6OTMyNzA4LCJvcElkIjoibHpuN3BuOW8iLCJqdXQiOjAsIm9wQWRtaW5Vc2VySWQiOjAsImp1biI6Ilx1NjYwZVx1NGVhZVx1ODAwMVx1NWUwOCJ9.-lcXnICsyBIPFkLSSPN7xtIYEDgxGoecwFsVseK4nrA',
+    'authorization': 'Bearer <YOUR_AUTHORIZATION_TOKEN>',
     'x-dmp': 'u=p3842xp&c=nkz9&url=%2FhomePage%2Fcourse%2Fvideo%3FcourseId%3D3738411%26ckFrom%3D5%26extId%3D-1&chl=gxh',
     'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 NetType/WIFI MicroMessenger/6.8.0(0x16080000) MacWechat/3.8.8(0x13080812) XWEB/1216 Flue',
     'origin': 'https://wx8a386e8fb04db387.wx.ckjr001.com',
@@ -56,7 +56,7 @@ getcourse_headers = {
     'referer': 'https://wx8a386e8fb04db387.wx.ckjr001.com/',
     'accept-language': 'en-US,en;q=0.9',
     'if-none-match': 'W/"9a66d8b2c37b6b557760cd36e302cdea416741eb"',
-    'Cookie': 'HWWAFSESID=b7df64097488a32ff44; HWWAFSESTIME=1719305888552'
+    'Cookie': 'HWWAFSESID=<YOUR_SESSION_ID>; HWWAFSESTIME=<YOUR_SESSION_TIME>'
 }
 list_response = requests.request("GET", courselist_url, headers=courselist_headers)
 list_data = list_response.json()
