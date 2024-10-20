@@ -9,13 +9,13 @@ headers1 = {
     'Host': 'kpapiop.ckjr001.com',
     'accept': 'application/json, text/plain, */*',
     'x-from': 'oa',
-    'authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8va3BhcGlvcC5ja2pyMDAxLmNvbS9hcGkvbXAvYXV0aENhbGxiYWNrIiwiaWF0IjoxNzE5Mjg2NDAyLCJleHAiOjE3MjE4Nzg0MDIsIm5iZiI6MTcxOTI4NjQwMiwianRpIjoiYUNkMWxQZTdSclo0c0p0WiIsInN1YiI6bnVsbCwiYyI6InFnZ2FhIiwidSI6ImxrbnI4eDgiLCJhIjoxLCJsaXZlQXV0aElkIjowLCJpc21iIjowLCJwIjpudWxsLCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIiwic3lzIjoibWljcm8iLCJhdWkiOjEwMDI1LCJyZnQiOjE2MzUyMTE1NDUsInVpZCI6IjE0NDIyOTkyNDQ3NzI4NDM1MjIiLCJhcHBJZCI6IjE0NDIyOTkyNDMyODY4OTI1NDUiLCJsb2dpblVzZXJUeXBlIjoyLCJjdiI6MjAwLCJ1dHkiOjIsImFpZCI6IjE0ODIyMzcxODgwMTkxMjYyNzQiLCJjaWQiOiIxNDgyMjM3MTg2MTY1NTE0MjQxIiwiYWciOjkzMjcwOCwib3BJZCI6Imx6bjdwbjlvIiwianV0IjowLCJvcEFkbWluVXNlcklkIjowLCJqdW4iOiJcdTVmYzNcdTUxNDNcdTk3NTJcdTVjMTFcdTVlNzRcdTViYjZcdTVlYWRcdTYyMTBcdTk1N2ZcdTViNjZcdTk2NjIifQ.1qnjSJhqMDHSyMlCwSXJ3w9-pXm8NIcPtmnW5Qt_D3c',
+    'authorization': 'Bearer <YOUR_AUTHORIZATION_TOKEN>',
     'x-dmp': 'u=lknr8x8&c=qggaa&url=%2FhomePage%2Fcolumn%2FcolumnList&chl=gxh',
     'sec-fetch-site': 'same-site',
     'sec-fetch-mode': 'cors',
     'sec-fetch-dest': 'empty',
     'referer': 'https://wx393fa15d9a499597.wx.ckjr001.com/',
-    'Cookie': 'HWWAFSESID=b614b19f88a0171114b; HWWAFSESTIME=1719287028153'
+    'Cookie': 'HWWAFSESID=<YOUR_SESSION_ID>; HWWAFSESTIME=<YOUR_SESSION_TIME>'
 }
 
 url2_1 = "https://kpapiop.ckjr001.com/api/column/getCourses/"
@@ -24,17 +24,13 @@ headers2 = {
     'Host': 'kpapiop.ckjr001.com',
     'accept': 'application/json, text/plain, */*',
     'x-from': 'oa',
-    'authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8va3BhcGlvcC5ja2pyMDAxLmNvbS9hcGkvbXAvYXV0aENhbGxiYWNrIiwiaWF0IjoxNzE5Mjg2NDAyLCJleHAiOjE3MjE4Nzg0MDIsIm5iZiI6MTcxOTI4NjQwMiwianRpIjoiYUNkMWxQZTdSclo0c0p0WiIsInN1YiI6bnVsbCwiYyI6InFnZ2FhIiwidSI6ImxrbnI4eDgiLCJhIjoxLCJsaXZlQXV0aElkIjowLCJpc21iIjowLCJwIjpudWxsLCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIiwic3lzIjoibWljcm8iLCJhdWkiOjEwMDI1LCJyZnQiOjE2MzUyMTE1NDUsInVpZCI6IjE0NDIyOTkyNDQ3NzI4NDM1MjIiLCJhcHBJZCI6IjE0NDIyOTkyNDMyODY4OTI1NDUiLCJsb2dpblVzZXJUeXBlIjoyLCJjdiI6MjAwLCJ1dHkiOjIsImFpZCI6IjE0ODIyMzcxODgwMTkxMjYyNzQiLCJjaWQiOiIxNDgyMjM3MTg2MTY1NTE0MjQxIiwiYWciOjkzMjcwOCwib3BJZCI6Imx6bjdwbjlvIiwianV0IjowLCJvcEFkbWluVXNlcklkIjowLCJqdW4iOiJcdTVmYzNcdTUxNDNcdTk3NTJcdTVjMTFcdTVlNzRcdTViYjZcdTVlYWRcdTYyMTBcdTk1N2ZcdTViNjZcdTk2NjIifQ.1qnjSJhqMDHSyMlCwSXJ3w9-pXm8NIcPtmnW5Qt_D3c',
-    'x-dmp': 'u=lknr8x8&c=qggaa&url=%2FhomePage%2Fcolumn%2FcolumnDetail%3FcId%3D-1%26ckFrom%3D9%26extId%3D135131&chl=gxh',
-    'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 NetType/WIFI MicroMessenger/6.8.0(0x16080000) MacWechat/3.8.8(0x13080812) XWEB/1216 Flue',
-    'origin': 'https://wx393fa15d9a499597.wx.ckjr001.com',
+    'authorization': 'Bearer <YOUR_AUTHORIZATION_TOKEN>',
+    'x-dmp': 'u=lknr8x8&c=qggaa&url=%2FhomePage%2Fcolumn%2FcolumnList&chl=gxh',
     'sec-fetch-site': 'same-site',
     'sec-fetch-mode': 'cors',
     'sec-fetch-dest': 'empty',
     'referer': 'https://wx393fa15d9a499597.wx.ckjr001.com/',
-    'accept-language': 'en-US,en;q=0.9',
-    'if-none-match': 'W/"ae56447b9305734cb0bc496b454ea42f9ccd4014"',
-    'Cookie': 'HWWAFSESID=b614b19f88a0171114b; HWWAFSESTIME=1719287028153'
+    'Cookie': 'HWWAFSESID=<YOUR_SESSION_ID>; HWWAFSESTIME=<YOUR_SESSION_TIME>'
 }
 
 list_response = requests.request("GET", url1, headers=headers1)
